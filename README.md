@@ -6,12 +6,12 @@
 
 ```Swift
 let pieView = PDPieView(x: (vw - 200) / 2, y: 100, width: 200);
-		view.addSubview(pieView);
+view.addSubview(pieView);
 
-		pieView
-			.border(color: .purple)
-			.border(W: 10)
-			.show(75);
+pieView
+	.border(color: .purple)
+	.border(W: 10)
+	.show(75);
 ```
 
 ***
